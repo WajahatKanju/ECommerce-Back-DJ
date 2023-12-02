@@ -1,0 +1,76 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+# Secret key
+*.secret_key
+
+# Development
+*.pyc
+*.sqlite3
+db.sqlite3
+/media
+/static
+.Python
+
+# Virtual environment
+venv/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.idea/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+*.log
+
+# Environment
+.env
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+
+# Translations
+*.mo
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Django local settings
+local_settings.py
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Heroku
+*.heroku/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
